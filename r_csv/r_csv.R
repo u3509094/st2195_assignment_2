@@ -11,3 +11,5 @@ car_table <- html_text(csv_pre[11])
 car_table
 
 write.table(car_table, file = 'car.csv', quote = FALSE, row.name = FALSE, col.names = FALSE)
+
+read.csv('car.csv')
